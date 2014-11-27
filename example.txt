@@ -1,6 +1,6 @@
 add 1 master;
 add 2 master;
-
+add 1 new_remote;
 
 
 add 3 master;
