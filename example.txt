@@ -1,3 +1,4 @@
 add 1 master;
 add 2 master;
 add 1 new_remote;
+add 2 new_branch;
