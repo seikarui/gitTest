@@ -1,0 +1,3 @@
+stash test
+stash commit --amend
+do
