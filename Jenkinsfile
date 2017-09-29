@@ -6,6 +6,7 @@ node(env.LINUX_SLAVE) {
     stage('Preparation') {
         sh "echo ${env.BASE_AMI}"
         sh "echo add post commit."
+        sh "echo add post commit2."
         sh "echo success."
     }
 }
