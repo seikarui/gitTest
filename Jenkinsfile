@@ -4,7 +4,7 @@ env.LINUX_SLAVE        = 'linux-slave'
 
 node(env.LINUX_SLAVE) {
     stage('Preparation') {
-        sh "echo ${BASE_AMI}"
+        sh "echo ${env.BASE_AMI}"
         sh "echo success."
     }
 }
